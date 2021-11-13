@@ -1,4 +1,4 @@
-# CTF-WRITEUP
+# TMUCTF-2021
 # 1/ UnBioSed
 
 - Ở phân packer ta thấy có PyInstaller⇒ phải unpack nó
