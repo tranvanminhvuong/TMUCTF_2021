@@ -3,7 +3,7 @@
 
 - Ở phân packer ta thấy có PyInstaller⇒ phải unpack nó
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/43865665-e228-4124-80b3-46f72241fe2e/Untitled.png)
+https://user-images.githubusercontent.com/89820487/143584832-86ff9ce4-4d29-4f9b-b927-d11974a5eaf8.png
 
 ```clojure
 1/ convert .exe => .pyc 
