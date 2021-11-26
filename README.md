@@ -19,35 +19,35 @@ https://github.com/extremecoders-re/pyinstxtractor
 - Git clone  https://github.com/extremecoders-re/pyinstxtractor
 - Trên Terminal :`python pyinstxtractor.py <filename>`
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b19c6396-6170-4ceb-ba27-e283f242f520/Untitled.png)
+![2](https://user-images.githubusercontent.com/89820487/143585429-b1b47b1d-a3e1-4b80-9642-cd3a92d73e50.png)
 
 - Dowload : uncompyle6
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c50b8e15-a5fd-4f61-8542-c0e24b438ab9/Untitled.png)
+![3-1](https://user-images.githubusercontent.com/89820487/143585882-624f0104-5379-4eb9-b361-c5b77f49bc17.png)
+
 
 - So sánh input vs h[] .Nếu bằng ⇒ Có Flag
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/8354d3ac-1cfb-4414-bd10-9f93b522339e/Untitled.png)
-
+![3](https://user-images.githubusercontent.com/89820487/143585460-e42c5606-2d91-4936-b7b7-aa3b7715ff00.png)
 ⇒Flag: TMUCTF{M4y_4ll_Y0ur_D3c1510n5_b3_Unb1053d!}
 
 # 2/Print_Flag
 
 - Run file ta thấy flag được in ra và càng về sau càng lâu.
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/82c78ec4-ed1f-4069-bcbd-12e26bed7a3d/Untitled.png)
+![4](https://user-images.githubusercontent.com/89820487/143585469-96035b1d-cf9a-45b1-83bb-08012ff2f544.png)
 
 - Mở file bằng Gidra
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/57253245-d631-497d-9dbc-8728f7899989/Untitled.png)
+![5](https://user-images.githubusercontent.com/89820487/143585482-59bd5f4b-8397-48b5-8aa5-e7bec3d16925.png)
 
 - Sau khi đọc qua code thấy được có hàm sleep() sau đó in ra ký tự (Chính là flag). Tôi đã chạy và pypass nhưng vẫn k giải quyết được vấn đề.
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/1c645858-5e4f-4f19-884c-d0018d7e1ea9/Untitled.png)
+![6](https://user-images.githubusercontent.com/89820487/143585486-d8cf72f2-aa8f-43cb-b5f5-ea31e7e63c0c.png)
 
 - Kiểm tra hàm FUN_00101189()
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/3737024f-8b76-4fba-9d0d-e8a3ac538b13/Untitled.png)
+![7](https://user-images.githubusercontent.com/89820487/143585498-85d7c0ec-4aaf-4139-9361-13d4b4bb70d8.png)
 
 - Thấy ngay 2 hàm đệ quy ⇒ vấn đề nằm ở đây
 - Phải code lại thôi
